@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ludovic/static/css/main.a3de9281.css",
+    "main.js": "/ludovic/static/js/main.0b039259.js",
+    "static/media/home1.jpg": "/ludovic/static/media/home1.a2ff9310df9a03ce55b2.jpg",
+    "index.html": "/ludovic/index.html",
+    "main.a3de9281.css.map": "/ludovic/static/css/main.a3de9281.css.map",
+    "main.0b039259.js.map": "/ludovic/static/js/main.0b039259.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3de9281.css",
+    "static/js/main.0b039259.js"
+  ]
+}
