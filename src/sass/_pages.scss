@@ -1,0 +1,55 @@
+.home-page,
+.consulting,
+.contact-page,
+.design,
+.development,
+.marketing,
+.products-page,
+.services-page,
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+text-shadow: 1px 1px 1px #fff;
+}
+
+.home-page {
+  background-image: url(../images/home1.jpg);
+}
+
+// .consulting {
+//   background-image: url(./images/consulting.jpg);
+// }
+
+// .design {
+//   background-image: url(./images/design.jpg);
+// }
+
+// .development {
+//   background-image: url(./images/development.jpg);
+// }
+
+// .marketing {
+//   background-image: url(./images/marketing.jpg);
+// }
+
+// .products-page {
+//   background-image: url(./images/products.jpg);
+// }
+
+ .contact-page {
+//   background-image: url(./images/contactus.jpg);
+ }
+
+.services-page {
+// background-image: url(../images/home.jpg);
+}
+
+// .signup {
+//   background-image: url(./images/signup.jpg);
+// }

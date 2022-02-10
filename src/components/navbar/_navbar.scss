@@ -1,0 +1,110 @@
+.navbar {
+    height: 60px;
+    background: #5FAD56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+    &__logo {
+        color: #FFF;
+        font-family: 'Lobster', sans-serif;
+        text-decoration: none;
+        font-size: 2rem;
+        // background-color: rgba(95, 173, 86, 0.5);
+        padding: 10px 1px;
+        border-radius: 5px;
+    }
+
+    .nav-items {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        width: 70vw;
+        justify-content: flex-end;
+        margin-right: 2rem;
+
+
+
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            height: 10vh;
+
+
+
+            a {
+                text-decoration: none;
+                color: #FFF;
+                font-size: 1.1rem;
+                margin-right: 3rem;
+                padding: 19px 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+
+
+                &:hover {
+                    background: #ffca3a;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+//Dropdown menu
+.services-submenu {
+    width: 10rem;
+    position: absolute;
+    top: 60px;
+    list-style: none;
+    text-align: start;
+
+    li {
+        background: #FFCA3A;
+        cursor: pointer;
+
+        .submenu-item {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #FFF;
+            padding: 5px !important;
+
+            &:hover {
+                background: rgb(235, 199, 102);
+                color: black;
+            }
+        }
+    }
+
+    a:hover {
+        background: #FFCA3A;
+    }
+
+    &.clicked {
+        display: none;
+    }
+}
+
+
+// Boutton s'inscrire
+.btn {
+    border: none;
+    background: transparent;
+    padding: 6px 16px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #FFCA3A;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #FFCA3A;
+        background: #fff;
+    }
+}

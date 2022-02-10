@@ -1,0 +1,38 @@
+.home-container {
+    width: 1240px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .description {
+        background: rgba(13, 24, 33, 0.7);
+         border-radius: 10px;
+
+        p {
+            font-size: 30px;
+            color: #FFCA3A;
+            padding: 10px;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+
+    .btn {
+        border: none;
+        background: transparent;
+        padding: 10px 20px;
+        font-size: 2rem;
+        color: #fff;
+        background: #FFCA3A;
+        border-radius: 5px;
+        transition: 0.3s all ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            color: #FFCA3A;
+            background: #fff;
+        }
+    }
+}
