@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    z-index: 999;
 
 
     &__logo {
@@ -25,15 +26,10 @@
         justify-content: flex-end;
         margin-right: 2rem;
 
-
-
-
         .nav-item {
             display: flex;
             align-items: center;
             height: 10vh;
-
-
 
             a {
                 text-decoration: none;
@@ -43,7 +39,6 @@
                 padding: 19px 10px;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
-
 
                 &:hover {
                     background: #ffca3a;
