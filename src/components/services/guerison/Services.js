@@ -11,7 +11,7 @@ class ServicesContent extends Component {
             <li>Tête</li>
             <li>Voies respiratoires</li>
             <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Système urinaire</li>
             <li>...</li>
           </ul>
           <div className="card-footer">
@@ -24,10 +24,10 @@ class ServicesContent extends Component {
         <div className="card">
           <div className="card-head">Amour</div>
           <ul className="card-content">
-            <li>Tête</li>
-            <li>Voies respiratoires</li>
-            <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Retour de l'être aimé</li>
+            <li>Retour d'affection</li>
+            <li>Rendre fidèle l'être chère</li>
+            <li>Pour éloigner un prétendant</li>
             <li>...</li>
           </ul>
           <div className="card-footer">
@@ -40,10 +40,10 @@ class ServicesContent extends Component {
         <div className="card">
           <div className="card-head">Argent</div>
           <ul className="card-content">
-            <li>Tête</li>
-            <li>Voies respiratoires</li>
-            <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Attirer la clientèle</li>
+            <li>Pour la chance aux jeux</li>
+            <li>Trouver un travail bien rémunéré</li>
+            <li>Obtenir une promotion</li>
             <li>...</li>
           </ul>
           <div className="card-footer">
@@ -56,10 +56,10 @@ class ServicesContent extends Component {
         <div className="card">
           <div className="card-head">Réussite</div>
           <ul className="card-content">
-            <li>Tête</li>
-            <li>Voies respiratoires</li>
-            <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Réussite scolaire</li>
+            <li>Réussir un concours, permis, autres…</li>
+            <li>Pour aller au delà de vos limites</li>
+            <li>Faire aboutir rapidement un procès</li>
             <li>...</li>
           </ul>
           <div className="card-footer">
@@ -72,10 +72,10 @@ class ServicesContent extends Component {
         <div className="card">
           <div className="card-head">Vengence</div>
           <ul className="card-content">
-            <li>Tête</li>
-            <li>Voies respiratoires</li>
-            <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Abaisser un ennemi</li>
+            <li>Faire souffrir de douleur un ennemi</li>
+            <li>Rendre fou (folle)</li>
+            <li>Faire taire les mauvaises langues</li>
             <li>...</li>
           </ul>
           <div className="card-footer">
@@ -88,10 +88,10 @@ class ServicesContent extends Component {
         <div className="card">
           <div className="card-head">Désenvoutement/Protection</div>
           <ul className="card-content">
-            <li>Tête</li>
-            <li>Voies respiratoires</li>
-            <li>Abdomen</li>
-            <li>Systèeme urinaire</li>
+            <li>Désenvoutement être humain ou animal</li>
+            <li>Protection contre les accidents</li>
+            <li>Contre le mauvais œil</li>
+            <li>Envoutement</li>
             <li>...</li>
           </ul>
           <div className="card-footer">

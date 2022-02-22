@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Footer extends Component {
   render() {
@@ -7,20 +8,25 @@ export class Footer extends Component {
         <div className="title">Mage Mandrak</div>
         <div className="container">
           <div className="col contact">
+            <h3>Lettre d'engagement</h3>
             <ul>
-              <li>mail</li>
-              <li>phone</li>
-              <li>---</li>
+              <Link to="/lettre-tous-travaux-occultes">
+                <li>Tous travaux occultes</li>
+              </Link>
+              <Link to="/magnetisme-et-guerison">
+                <li>Magnétisme et guérison</li>
+              </Link>
             </ul>
           </div>
           <div className="col">
+            <h3>Contact</h3>
             <ul>
-              <li>---</li>
-              <li>---</li>
-              <li>---</li>
+              <li>Tél : 06 27 66 17 78</li>
+              <li>Mail </li>
             </ul>
           </div>
           <div className="col social-network">
+            <h3>Réseaux sociaux</h3>
             <ul>
               <li>Facebook</li>
               <li>Twitter</li>
@@ -34,4 +40,4 @@ export class Footer extends Component {
   }
 }
 
-export default Footer
+export default Footer;
